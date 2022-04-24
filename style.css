@@ -1,0 +1,60 @@
+h1, h2 {
+    color: rgba(204, 5, 5, 0.986);
+}
+
+h1 {
+    text-align: center;
+}
+
+#main {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    margin: 10px;
+    padding: 5px 20px;
+    border: 1px solid rgba(204, 5, 5, 0.986);
+}
+.intro > p {
+    margin: 5px 0;
+}
+.important {
+    font-weight: bold;
+}
+
+.comment {
+    font-style: italic;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(204, 5, 5, 0.401);
+    text-transform: uppercase;
+}
+.columns {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    height: 270px;
+}
+
+#final {
+    width: 130px;
+    align-self: center;
+    border: 2px solid rgba(204, 5, 5, 0.986);
+    padding: 5px 20px;
+}
+#final > p, h3 {
+    text-align: center;
+}
+
+.done {
+    background-color: rgba(204, 5, 5, 0.401);
+}
