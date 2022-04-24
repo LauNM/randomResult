@@ -10,14 +10,10 @@ const choices = [
     },
     {
         id: 2,
-        value: "vote blanc"
+        value: "vote blanc ou nul"
     },
     {
         id: 3,
-        value: "vote nul"
-    },
-    {
-        id: 4,
         value: "vote contre Le Pen"
     }
 ];
@@ -26,7 +22,7 @@ let listOfResults = [];
 
 const showResult = () => {
     const choice = document.createElement('li');
-    const result = choices[Math.floor(Math.random() * 4)]
+    const result = choices[Math.floor(Math.random() * choices.length)]
     choice.innerHTML = result.value;
     list.appendChild(choice)
     listOfResults.push(result.id);
