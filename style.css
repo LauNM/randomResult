@@ -58,3 +58,12 @@ button {
 .done {
     background-color: rgba(204, 5, 5, 0.401);
 }
+
+@media screen and (max-width: 660px) {
+    .columns { 
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+  }
